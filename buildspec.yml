@@ -7,8 +7,6 @@ env:
     HOST: "HOST" # The SSM parameter name is HOST
     ORGANIZATION: "ORGANIZATION" # The SSM parameter name is ORGANIZATION
     PROJECT: "PROJECT" # The SSM parameter name is PROJECT
-    CODEARTIFACT_DOMAIN: "/codeartifact/domain" # The SSM parameter name for CodeArtifact domain
-    CODEARTIFACT_OWNER: "/codeartifact/owner" # The SSM parameter name for CodeArtifact owner
 
 phases:
   install:
